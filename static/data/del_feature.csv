@@ -1,0 +1,12 @@
+imp_feature,rmse
+init,0.163736767
+airconditioningtypeid,0.1637542
+basementsqft,0.163753782
+threequarterbathnbr,0.163749049
+numberofstories,0.163750936
+fireplacecnt,0.163752509
+unitcnt_fill,0.16375024
+heatingorsystemtypeid,0.163764706
+garagecarcnt,0.163758471
+roomcnt,0.163751829
+pooltypeid2,0.163748247

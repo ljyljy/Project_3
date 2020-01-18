@@ -1,0 +1,17 @@
+temp_feature,rmse
+init,0.163759024
+total_high_hours,0.163752483
+total_low_hours,0.163751328
+max_temp,0.163753768
+min_temp,0.163749778
+"total_high_hours, total_low_hours",0.163750403
+"total_high_hours, max_temp",0.163748323
+"total_high_hours, min_temp",0.16374871
+"total_low_hours, max_temp",0.163749417
+"total_low_hours, min_temp",0.163757167
+"max_temp, min_temp",0.163746593
+without min_temp,0.16376002
+without max_temp,0.163759346
+without total_low_hours,0.163757026
+without total_high_hours,0.163752806
+all,0.163754173
