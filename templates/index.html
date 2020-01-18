@@ -42,15 +42,8 @@
 				          <li class="menu-active"><a href="#home">Home</a></li>
 				          <li><a href="#service">Background</a></li>
 				          <li><a href="#feature">Features</a></li>
-				          <li><a href="#price">Price</a></li>
-				          <li><a href="#testimonial">Testimonial</a></li>
-				          <li class="menu-has-children"><a href="">Pages</a>
-				            <ul>
-				              <li><a href="generic.html">Generic</a></li>
-				              <li><a href="elements.html">Elements</a></li>
-				            </ul>
-				          </li>
-				          <li><a class="ticker-btn" href="#">Get Started</a></li>				          
+				          <li><a href="#price">Models</a></li>
+				          <li><a href="#blog">Discussion</a></li>			          
 				        </ul>
 				      </nav><!-- #nav-menu-container -->		    		
 			    	</div>
@@ -139,8 +132,8 @@
 							<div class="title text-center">
 								<h1 class="mb-10 text-white">Feature engineering</h1>
 								<p class="text-white">Including target engineering, missing value refilling, feature adding, feature selection, weather collection</p>
-								<a class="primary-btn" href="#">Target engineering</a>
-								<a class="primary-btn" href="#">Feature engineering</a>
+								<a class="primary-btn" href="#feature">Target engineering</a>
+								<a class="primary-btn" href="#missing">Feature engineering</a>
 							</div>
 						</div>
 					</div>	
@@ -206,7 +199,7 @@
 			<!-- End targe engineer Area -->
 			
 			<!-- Start missing value filling Area -->
-			<section class="about-area section-gap">
+			<section class="about-area section-gap" id="missing">
 				<div class="container">
 					<!-- start feature engineering title -->
 					<div class="row d-flex justify-content-center">
@@ -453,26 +446,6 @@
 							</div>
 						</div>
 					</div>
-					<!-- <div class="container-fluid">
-						<div class="row align-items-center">
-							<div class="row justify-content-center align-items-center">
-								<div class="col-lg-8 no-padding about-left relative">
-									<div class="overlay overlay-bg"></div>
-									<div id='outlier_plot'></div>
-								</div>
-								<div class="col-lg-4 no-padding about-right">
-									<h1>Outlier removal</h1>
-									<p><span>Most of the data is in between -0.416 and 0.4</span></p>
-									<p>
-										Use different region of target to test the accuracy of the model
-									</p>
-									<div align = "center">
-										<select id="outlier_sel" onchange="outlier(this.value)"></select>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>	 -->
 				</div>	
 			</section>
 			<!-- End home-aboutus Area -->
@@ -481,7 +454,7 @@
 				
 			
 			<!-- Start callto-action Area -->
-			<section class="callto-action-area relative section-gap">
+			<section class="callto-action-area relative section-gap", id = 'price'>
 				<div class="overlay overlay-bg"></div>	
 				<div class="container">
 					<div class="row d-flex justify-content-center">
@@ -574,11 +547,12 @@
 					<div class="row d-flex justify-content-center">
 						<div class="menu-content pb-60 col-lg-8">
 							<div class="title text-center">
-								<h1 class="mb-10">Ensemble 4 models by "Leaking data"</h1>
+								<h1 class="mb-10">Ensemble 4 models</h1>
 								<p>2016 Oct, Nov and Dec data is public, ensemble models by different weights towards leaking data by Particle swarm optimization</p>
+								<h1 class="mb-10"> Final result: 80 from 3774 team</h1>
 							</div>
 						</div>
-						<img src="https://raw.githubusercontent.com/guofei9987/pictures_for_blog/master/heuristic_algorithm/pso.gif" alt="">
+						<!-- <img src="https://raw.githubusercontent.com/guofei9987/pictures_for_blog/master/heuristic_algorithm/pso.gif" alt=""> -->
 					</div>										
 				</div>	
 			</section>
@@ -596,7 +570,7 @@
 
 								<h4 style="color:#069">Outlier removal is not good enough</h4>
 								<br><br>
-								<h4 style="color:#069">Try different NN leaking data is not accuracy</h4>
+								<h4 style="color:#069">Find better target for ensemble</h4>
 							</div>
 						</div>
 					</div>				
